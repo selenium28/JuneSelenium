@@ -3,11 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="para.Parametrization">
+      <class name="para.LoginDataProvider">
         <methods>
-          <include name="browserLaunch"/>
+          <include name="loginTestCase" invocation-numbers="0 1 2"/>
         </methods>
-      </class> <!-- para.Parametrization -->
+      </class> <!-- para.LoginDataProvider -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
